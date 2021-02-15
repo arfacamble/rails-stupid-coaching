@@ -1,1 +1,14 @@
-<%= @question %>
+<h1>Stupid Coaching</h1>
+<div>
+  <p>
+    <%= @question %>
+  </p>
+  <p><em>-You</em></p>
+</div>
+<div>
+  <p class='response'>
+    <%= @response %>
+  </p>
+  <p><em>-Your Coach</em></p>
+</div>
+<%= link_to "Speak anew to yon coach idiot", ask_path %>
