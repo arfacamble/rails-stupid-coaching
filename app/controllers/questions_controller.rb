@@ -1,6 +1,6 @@
 class QuestionsController < ApplicationController
   def ask
-    @question = 'Where will this be?'
+    @question = 'Ask your coach anything'
   end
   def answer
     @question = params[:question]
